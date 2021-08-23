@@ -13,7 +13,7 @@ steps:
     title: Building Docker Image
     type: build
     stage: package
-    image_name: my-app-image
+    image_name: my-app-image1
     working_directory: ./
     tag: v1.0.0
     dockerfile: Dockerfile
